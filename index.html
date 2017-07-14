@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+
+
+<meta name="description" content="Sistema para o desenvolvimento de botões, crie vários estilos de forma rápida e fácil.">
+<meta name="keywords" content="gerador,botão, estilo, sistema, botões, codigo,desenvolvimento,HTML,CSS,XML,JavaScript,hover,animate,github,navarro,desenvolvedor web,fadein,fadeout,efeitos,google,maker">
+<meta name="author" content="Diego Morales Navarro">
+
+<meta name="ABSTRACT" content="criando botão">
+
+<meta name="ROBOT" content="Index,Follow">
+
+<meta name="RATING" content="general">
+
+<meta name="DISTRIBUTION" content="global">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<head>
+
+	<title>Button Generator</title>
+
+	
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"> 
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+	<script type="text/javascript" src="js/gerador.js"></script>
+
+	
+</head>
+
+<style type="text/css">
+
+#StyleB{ border: none;  text-decoration: none; outline: none;  }
+
+</style>
+
+
+
+
+
+<body>
+
+<header>
+
+<div class="cor-header ">
+		<div class="col-md-12 texto-header">
+			<h1>Button Generator</h1>
+		</div>
+</div>
+
+<section id="informar">
+	<p>Sistema para o desenvolvimento de botões, crie vários estilos de forma rápida e fácil.</p>
+
+</section>
+
+
+
+	
+</header>
+
+<main>
+
+<section id="gerador">
+	<form class="container">
+		<div class="row">
+			<div class="col-md-12 ">
+
+				<div class="col-md-6 relative">
+
+					<div id="trocar" class="entrar" >
+						<a id="StyleB">Home</a>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
+
+					<div class="panel panel-default">
+					    <div class="cor1"  id="heading01"  data-toggle="collapse" data-parent="#accordion" href="#collapse01" aria-expanded="false">
+					      <h4 class="panel-title">  Modelos de exemplo </h4>
+					    </div>
+						    <div id="collapse01" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading01">
+							      <div class="panel-body centralizar2">
+
+							     <!--  <div>
+							      	<a class="m1" id="modelo1">Botão</a>
+							      <a class="m2" id="modelo2">Botão</a>
+							      <a class="m3" id="modelo3">Botão</a>
+							      <a class="m4" id="modelo4">Botão</a>
+							      <a class="m5" id="modelo1">Botão</a>
+							      </div> -->
+
+
+							  
+
+								       <div class="col-md-12">
+									      <div class="col-md-4">
+									      	<a class="m1" id="modelo1">Botão</a>
+									      	<br><br>
+									      </div>
+
+									      <div class="col-md-4">
+									      	<a class="m2" id="modelo2">Botão</a>
+									      	<br><br>
+									      </div>
+
+									      <div class="col-md-4">
+									      	<a class="m3" id="modelo3">Botão</a>
+									      	<br><br>
+									      </div>
+								      </div>
+
+								      <div class="col-md-12">
+									      <div class="col-md-4">
+									      	<a class="m4" id="modelo4">Botão</a>
+									      	<br>
+									      </div>
+
+									      <div class="col-md-4">
+									      <br>
+									      	<a class="m5" id="modelo5">Botão</a>
+									      	<br>
+									      </div>
+
+									      <div class="col-md-4">
+									      	
+									      </div>
+								      </div> 
+
+							      </div>
+						    </div>
+					  </div>  <!-- -->
+
+					  <div class="panel panel-default">
+					    <div class="cor1"  id="heading1"  data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false">
+					      <h4 class="panel-title">  Font  </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+					      <div class="panel-body centralizar">
+					        
+					        <label>Titulo.</label>
+					        <input type="text" name="titulo" maxlength="30" value="Home" id="titulo1">
+					        <br>
+					        <label>Fonte.</label>
+					        <select name="tipo" id="tipoFonte" class="select-text" value="">
+							   <option value="arial" selected>Arial</option>
+							   <option value="italic">Italic</option>
+							   <option value="Impact">Impact</option>
+							   <option value="Verdana">Verdana</option>
+							   <option value="Georgia">Georgia</option>
+							   <option value="cursive">Cursive</option>
+							</select>
+							<br>
+							<label>Cor  .</label>
+							 <input type="color" id="fontColor">
+							 <br>
+							 <label>Tamanho .</label><span id="info1">16px</span>
+							 <input id="fontTamanho" type="range" min="10" max="50" value="16"  ></input>
+							 
+							 <label>Cursor.</label>
+							 <select name="tipo" id="cursor" class="select-text">
+							    <option value="initial" selected>Padrão</option>
+							    <option value="pointer">Pointer</option>
+							  </select>
+	 						
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+					  <div class="panel panel-default">
+					    <div class="cor1"  id="heading2"  data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false">
+					      <h4 class="panel-title">  Radius  </h4>
+					    </div>
+					    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+					      <div class="panel-body centralizar">
+
+					      <label>Radius em </label>
+					      <select name="tipo" id="radiusT">
+						    <option value="px" selected>px</option>
+						    <option value="%">%</option>
+						  </select>
+							<br>
+					      <label>Topo esquerdo.</label><span id="info2">1px</span>
+							 <input id="radius1" type="range" min="0" max="50" value="1" ></input>
+							 <label>Topo direito.</label><span id="info2-2">1px</span>
+							 <input id="radius2" type="range" min="0" max="50" value="1" ></input>
+							 <label>Inferior esquerdo.</label><span id="info2-3">1px</span>
+							 <input id="radius3" type="range" min="0" max="50" value="1" ></input>
+							 <label>Inferior direito.</label><span id="info2-4">1px</span>
+							 <input id="radius4" type="range" min="0" max="50" value="1" ></input>
+							
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+					  <div class="panel panel-default">
+					    <div class="cor1"  id="heading3"  data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false">
+					      <h4 class="panel-title">  Padding  </h4>
+					    </div>
+					    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+					      <div class="panel-body centralizar">
+
+					      <label>Padding Left, Right .</label><span id="info3">5px</span>
+						    <input id="paddingLR" type="range" min="1" max="100" value="5"  ></input>
+						 <br>
+						 <label>Padding Bottom, Top .</label> <span id="info4">5px</span>
+						    <input id="paddingBT" type="range" min="1" max="100" value="5"  ></input>
+						
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+					  <div class="panel panel-default">
+					    <div class="cor1"  id="heading4"  data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false">
+					      <h4 class="panel-title">  Border  </h4>
+					    </div>
+					    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+					      <div class="panel-body centralizar">
+
+					      <label>Tipo de borda.</label>
+							 <select name="tipo" id="borderTipo" class="select-text">
+							    <option value="solid" selected>Solid</option>
+							    <option value="dotted">Dotted</option>
+							    <option value="double">Double</option>
+							    <option value="dashed">Dashed</option>
+							  </select>
+							  <br>
+							<label>Cor  .</label>
+							 <input type="color" id="borderColor">
+							 <br>
+							 <label>Largura .</label><span id="info5">16px</span>
+							 <input id="border" type="range" min="0" max="10" value="1"  ></input>
+						
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+					  <div class="panel panel-default">
+					    <div class="cor1"  id="heading5"  data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false">
+					      <h4 class="panel-title">  Background  </h4>
+					    </div>
+					    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+					      <div class="panel-body centralizar">
+
+					      <label>Tipo de Background.</label>
+					      <br>
+					      <select name="tipo" id="backgroundTipo" class="select-text">
+						    <option value="linear-gradient(180deg," selected>Linear gradient 180deg</option>
+						    <option value="linear-gradient(0deg,">Linear gradient 0deg</option>
+						    <option value="linear-gradient(90deg,">Linear gradient 90deg</option>
+						    <option value="linear-gradient(-90deg,">Linear gradient -90deg</option>
+						    <option value="radial-gradient(">Radial gradient</option>
+						  </select>
+						  <label>Cores.</label>
+					      <br>
+							<input type="color" id="background1" value="#d9d9d9">
+							<label>Proporção cor um.</label><span id="info6">1%</span>
+							 <input id="posicao1" type="range" min="0" max="100" value="1" > </input>
+
+							 <input type="color" id="background2" value="#d1d1d1">
+							<label>Proporção cor dois.</label><span id="info7">40%</span>
+							 <input id="posicao2" type="range" min="0" max="100" value="40" > </input>
+
+							 <input type="color" id="background3" value="#c7c7c7">
+							<label>Proporção cor três.</label><span id="info8">50%</span>
+							 <input id="posicao3" type="range" min="0" max="100" value="50" > </input>
+
+							 <input type="color" id="background4" value="#f2f2f2">
+							<label>Proporção cor quatro.</label><span id="info9">100%</span>
+							 <input id="posicao4" type="range" min="0" max="100" value="100" > </input>
+								<br>
+							 <select name="tipo" id="visualizar" class="select-text">
+							    <option value="" selected>visivel</option>
+							    <option value="transparent">transparente</option>
+							  </select>
+						
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+					   <div class="panel panel-default">
+					    <div class="cor1"  id="heading6"  data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false">
+					      <h4 class="panel-title">  Box Shadow  </h4>
+					    </div>
+					    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+					      <div class="panel-body centralizar">
+
+					      <label>Cor.</label>
+					      <br>
+					      <input type="color" id="colorboxShadow">
+							<br>
+							<label>Coordenada Y.</label><span id="info10">3px</span>
+						    <input id="boxShadow1" type="range" min="-10" max="10" value="3"  ></input>
+							  <br>
+							  <label>Coordenada X.</label><span id="info11">3px</span>
+							  <input id="boxShadow2" type="range" min="-10" max="10" value="3"  ></input>
+							  <br>
+							  <label>Foco.</label><span id="info12">19px</span>
+							  <input id="boxShadow3" type="range" min="-0" max="35" value="19"  ></input>
+
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+
+					  <!-- hover -->
+
+					  <div class="panel panel-default">
+					    <div class="cor2"  id="heading9"  data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false">
+					      <h4 class="panel-title">  Font Hover  </h4>
+					    </div>
+					    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+					      <div class="panel-body centralizar">
+
+					    <label>Fonte.</label>
+					        <select name="tipo" id="tipoFonteHover" class="select-text">
+							   <option value="arial" selected>Arial</option>
+							   <option value="italic">Italic</option>
+							   <option value="Impact">Impact</option>
+							   <option value="Verdana">Verdana</option>
+							   <option value="Georgia">Georgia</option>
+							    <option value="cursive">Cursive</option>
+							</select>
+							<br>
+							<label>Cor  .</label>
+							 <input type="color" id="fontColorHover">
+
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+					   <div class="panel panel-default">
+					    <div class="cor2"  id="heading7"  data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false">
+					      <h4 class="panel-title">  Background Hover  </h4>
+					    </div>
+					    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+					      <div class="panel-body centralizar">
+
+					      <label>Tipo de Background.</label>
+					      <br>
+					      <select name="tipo" id="backgroundTipoHover" class="select-text">
+						    <option value="linear-gradient(180deg," selected>Linear gradient 180deg</option>
+						    <option value="linear-gradient(0deg,">Linear gradient 0deg</option>
+						    <option value="linear-gradient(90deg,">Linear gradient 90deg</option>
+						    <option value="linear-gradient(-90deg,">Linear gradient -90deg</option>
+						    <option value="radial-gradient(">Radial gradient</option>
+						  </select>
+						  <label>Cores.</label>
+					      <br>
+							<input type="color" id="background1Hover" value="#fcfcfc">
+							<label>Proporção cor um.</label><span id="info13">1%</span>
+							 <input id="posicao1Hover" type="range" min="0" max="100" value="1" > </input>
+
+							 <input type="color" id="background2Hover" value="#f2f2f2">
+							<label>Proporção cor dois.</label><span id="info14">40%</span>
+							 <input id="posicao2Hover" type="range" min="0" max="100" value="40" > </input>
+
+							 <input type="color" id="background3Hover" value="#e8e8e8">
+							<label>Proporção cor três.</label><span id="info15">50%</span>
+							 <input id="posicao3Hover" type="range" min="0" max="100" value="50" > </input>
+
+							 <input type="color" id="background4Hover" value="#fcfcfc">
+							<label>Proporção cor quatro.</label><span id="info16">100%</span>
+							 <input id="posicao4Hover" type="range" min="0" max="100" value="100" > </input>
+								<br>
+							 <select name="tipo" id="visualizarHover" class="select-text">
+							    <option value="" selected>visivel</option>
+							    <option value="transparent">transparente</option>
+							  </select>
+
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+					 <div class="panel panel-default">
+					    <div class="cor2"  id="heading8"  data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false">
+					      <h4 class="panel-title">  Box Shadow Hover  </h4>
+					    </div>
+					    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+					      <div class="panel-body centralizar">
+
+					      <label>Cor.</label>
+					      <br>
+					      <input type="color" id="colorboxShadowHover">
+							<br>
+							<label>Coordenada Y.</label><span id="info17">3px</span>
+						    <input id="boxShadow1Hover" type="range" min="-10" max="10" value="3"  ></input>
+							  <br>
+							  <label>Coordenada X.</label><span id="info18">3px</span>
+							  <input id="boxShadow2Hover" type="range" min="-10" max="10" value="3"  ></input>
+							  <br>
+							  <label>Foco.</label><span id="info19">9px</span>
+							  <input id="boxShadow3Hover" type="range" min="-0" max="35" value="9"  ></input>
+
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+					 
+
+					  <div class="panel panel-default">
+					    <div class="cor3"  id="heading10"  data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false">
+					      <h4 class="panel-title">  Outros  </h4>
+					    </div>
+					    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+					      <div class="panel-body centralizar">
+
+								<label>.class</label>
+					        <input type="text" name="titulo" maxlength="15" value="meu-bt" id="titulo2">
+					        <br>
+					        <label>Target.</label>
+					        <select name="tipo" id="tipoTarget" class="select-text" value="_blank">
+							   <option value="_blank" selected>blank</option>
+							   <option value="_self">self</option>
+							</select>
+							<br>
+							<label>href.</label>
+					        <input type="text" name="titulo" maxlength="100" value="http://google.com" id="titulo3">
+					        <br>
+					        <label>Transition.</label> <span id="info1T">0.3s</span>
+							  <input id="Transition" type="range" min="0" max="20" value="3"  ></input>
+
+
+							
+					      </div>
+					    </div>
+					  </div>  <!-- -->
+
+
+					</div><!-- -->
+
+				 </div> <!-- fim col-md-6 -->
+
+			</div> <!-- fim col-md-12 -->
+		</div>
+	</form>
+	
+</section>
+
+<section id="resultado">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<h3>Copie o código abaixo. </h3>
+				<h2>HTML</h2>
+				<div class="col-md-12 cor-resultado">
+					<code id="result1"></code>
+				</div>
+				<br><br><br><br>
+				
+				<h2>CSS</h2>
+				<div class="col-md-12 cor-resultado">
+					<code id="result2"></code>
+				</div>
+
+				<div class="col-md-12 cor-resultado">
+					<code id="result3"></code>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<footer class="cor-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 centro-footer">
+				<a href="https://github.com/DiegoMoralesNavarro"><img src="img/github.png"></a>
+
+				<p>Diego Morales Navarro</p>
+				
+				<a href="https://desenvolvedor-web.blogspot.com.br/"><img src="img/Blogger.png"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/gerador.js"></script>
+
+<script  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+  $(document).scroll(function () {
+          var topWindow = $(window).scrollTop();
+
+          if (topWindow < 640 ) {
+            $('#trocar').addClass('entrar');
+             $('#trocar').removeClass('sair');
+          } else{
+            $('#trocar').addClass('sair');
+            $('#trocar').removeClass('entrar');
+          }
+
+
+      });
+	
+
+
+</script>
+
+</body>
+</html>
